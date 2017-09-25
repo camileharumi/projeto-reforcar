@@ -1,0 +1,220 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-left: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fafafb;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b5c3d2;
+}
+
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	width: 100%;
+	height: 100px;
+	background-color: #6b88a6;
+}
+
+#menu img {
+	max-width: 15%;
+	padding: 1%;
+}
+
+#menu ul {
+	float: right;
+	width: 35%;
+	margin-top: 3%;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 2% 5%;
+}
+
+#menu a {
+	color: #fafafb;
+	text-decoration: none;
+}
+
+#menu a:active {
+	border-bottom: 2px solid #fafafb;
+}
+
+#rodape {
+	width: 100%;
+	background-color: #55575a;
+	text-align: center;
+	color: #fafafb;
+	bottom: 0;
+	position: relative;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.clr {
+	clear: both;
+}
+
+.banner {
+	background-image: url(../img/home_cropped.png);
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+}
+
+.banner .texto {
+	width: 35%;	
+	background-color: rgba(85,87,90,0.6);
+	height: inherit;
+}
+
+.banner .texto p {
+	width: 50%;
+	padding: 10%;
+	margin-left: 25%;
+	text-align: justify;
+	color: #fafafb;
+}
+
+.escolaInfo img, .voluntarioInfo img {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #6b88a6;
+	margin: 5%;
+	float: left;
+	display: inline-block;
+}
+
+.escolaInfo .texto h2, .voluntarioInfo .texto h2 {
+	display: inline-block;
+	float: left;
+	font-size: 30px;
+	color: #55575a;
+	margin: 5% 0;
+}
+
+.escolaInfo .texto p, .voluntarioInfo .texto p {
+	display: inline-block;
+	float: right;
+	text-align: justify;
+	width: 75%;
+}
+
+.voluntarioInfo img {
+	float: right;
+}
+
+.voluntarioInfo .texto h2 {
+	float: right;
+}
+
+.voluntarioInfo .texto p {
+	float: right;
+}
+
+.sobre h1 {
+	font-size: 36px;
+	color: #55575a;
+	padding: 5% 0;
+}
+
+.sobre p {
+	text-align: justify;
+	font-size: 16px;
+	padding: 2%;
+}
+
+.sobre p:last-child {
+	padding-bottom: 15%;
+}
+
+
+.cadastroInstituicao {
+	color: #55575a;
+	text-align: left; 
+}
+
+.cadastroInstituicao .title {
+	text-decoration: underline;
+	font-size: 24px;
+	margin: 5% 0;
+}
+
+.cadastroInstituicao h4.title {
+	text-decoration: none;
+}
+
+.cadastroInstituicao .group {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+.cadastroInstituicao label {
+	text-transform: uppercase;
+	width: 25%;
+	padding: 0.5%;
+	margin: 0.5%;
+	vertical-align: sub;
+}
+
+.cadastroInstituicao input[type="text"] {
+	width: 75%;
+	float: right;
+	padding: 0.5%;
+	margin: 0.5%;
+}
+
+.cadastroInstituicao .materias span {
+	padding: 0 1%;
+	font-size: 16px;
+}
+
+.cadastroInstituicao .materias input[type="checkbox"] {
+	display: inline-block;
+}
+
+.cadastroInstituicao .materias select {
+	display: block;
+	margin: 2% 0;
+	width: 30%;
+}
+
+button.salvar {
+	background-color: #6b88a6;
+	border: none;
+	padding: 1% 5%;
+	color: white;
+	margin: 3% 0 5% 0; 
+}
+
+
+
