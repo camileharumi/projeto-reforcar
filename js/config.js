@@ -10,6 +10,10 @@ app.config(function ($routeProvider){
 			templateUrl: 'templates/sobre.html',
 			controller: 'sobreController'
 		})
+		.when('/cadastro', {
+			templateUrl: 'templates/cadastro.html',
+			controller: 'cadastroController'
+		})
 		.when('/cadastroInstituicao', {
 			templateUrl: 'templates/cadastroInstituicao.html',
 			controller: 'cadastroInstituicaoController'
